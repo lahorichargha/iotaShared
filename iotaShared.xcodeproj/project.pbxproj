@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAB19E931386EEBE00C03028 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB19E921386EEBE00C03028 /* Foundation.framework */; };
+		AAB19E9E1386EEBE00C03028 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB19E9D1386EEBE00C03028 /* UIKit.framework */; };
+		AAB19E9F1386EEBE00C03028 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB19E921386EEBE00C03028 /* Foundation.framework */; };
+		AAB19EA11386EEBE00C03028 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB19EA01386EEBE00C03028 /* CoreGraphics.framework */; };
+		AAB19EA41386EEBE00C03028 /* libiotaShared.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB19E8F1386EEBE00C03028 /* libiotaShared.a */; };
+		AAB19EAA1386EEBE00C03028 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAB19EA81386EEBE00C03028 /* InfoPlist.strings */; };
+		AAB19EAD1386EEBE00C03028 /* iotaSharedTests.h in Resources */ = {isa = PBXBuildFile; fileRef = AAB19EAC1386EEBE00C03028 /* iotaSharedTests.h */; };
+		AAB19EAF1386EEBE00C03028 /* iotaSharedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB19EAE1386EEBE00C03028 /* iotaSharedTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAB19EA21386EEBE00C03028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAB19E861386EEBE00C03028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAB19E8E1386EEBE00C03028;
+			remoteInfo = iotaShared;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAB19E8F1386EEBE00C03028 /* libiotaShared.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiotaShared.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB19E921386EEBE00C03028 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AAB19E961386EEBE00C03028 /* iotaShared-Prefix.pch */ = {isa = PBXFileReference; path = "iotaShared-Prefix.pch"; sourceTree = "<group>"; };
+		AAB19E9C1386EEBE00C03028 /* iotaSharedTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iotaSharedTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB19E9D1386EEBE00C03028 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AAB19EA01386EEBE00C03028 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AAB19EA71386EEBE00C03028 /* iotaSharedTests-Info.plist */ = {isa = PBXFileReference; path = "iotaSharedTests-Info.plist"; sourceTree = "<group>"; };
+		AAB19EA91386EEBE00C03028 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AAB19EAB1386EEBE00C03028 /* iotaSharedTests-Prefix.pch */ = {isa = PBXFileReference; path = "iotaSharedTests-Prefix.pch"; sourceTree = "<group>"; };
+		AAB19EAC1386EEBE00C03028 /* iotaSharedTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iotaSharedTests.h; sourceTree = "<group>"; };
+		AAB19EAE1386EEBE00C03028 /* iotaSharedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iotaSharedTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAB19E8C1386EEBE00C03028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB19E931386EEBE00C03028 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB19E981386EEBE00C03028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB19E9E1386EEBE00C03028 /* UIKit.framework in Frameworks */,
+				AAB19E9F1386EEBE00C03028 /* Foundation.framework in Frameworks */,
+				AAB19EA11386EEBE00C03028 /* CoreGraphics.framework in Frameworks */,
+				AAB19EA41386EEBE00C03028 /* libiotaShared.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAB19E841386EEBE00C03028 = {
+			isa = PBXGroup;
+			children = (
+				AAB19E941386EEBE00C03028 /* iotaShared */,
+				AAB19EA51386EEBE00C03028 /* iotaSharedTests */,
+				AAB19E911386EEBE00C03028 /* Frameworks */,
+				AAB19E901386EEBE00C03028 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAB19E901386EEBE00C03028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAB19E8F1386EEBE00C03028 /* libiotaShared.a */,
+				AAB19E9C1386EEBE00C03028 /* iotaSharedTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAB19E911386EEBE00C03028 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAB19E921386EEBE00C03028 /* Foundation.framework */,
+				AAB19E9D1386EEBE00C03028 /* UIKit.framework */,
+				AAB19EA01386EEBE00C03028 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAB19E941386EEBE00C03028 /* iotaShared */ = {
+			isa = PBXGroup;
+			children = (
+				AAB19E951386EEBE00C03028 /* Supporting Files */,
+			);
+			path = iotaShared;
+			sourceTree = "<group>";
+		};
+		AAB19E951386EEBE00C03028 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAB19E961386EEBE00C03028 /* iotaShared-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAB19EA51386EEBE00C03028 /* iotaSharedTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAB19EAC1386EEBE00C03028 /* iotaSharedTests.h */,
+				AAB19EAE1386EEBE00C03028 /* iotaSharedTests.m */,
+				AAB19EA61386EEBE00C03028 /* Supporting Files */,
+			);
+			path = iotaSharedTests;
+			sourceTree = "<group>";
+		};
+		AAB19EA61386EEBE00C03028 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAB19EA71386EEBE00C03028 /* iotaSharedTests-Info.plist */,
+				AAB19EA81386EEBE00C03028 /* InfoPlist.strings */,
+				AAB19EAB1386EEBE00C03028 /* iotaSharedTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AAB19E8D1386EEBE00C03028 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AAB19E8E1386EEBE00C03028 /* iotaShared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB19EB21386EEBE00C03028 /* Build configuration list for PBXNativeTarget "iotaShared" */;
+			buildPhases = (
+				AAB19E8B1386EEBE00C03028 /* Sources */,
+				AAB19E8C1386EEBE00C03028 /* Frameworks */,
+				AAB19E8D1386EEBE00C03028 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iotaShared;
+			productName = iotaShared;
+			productReference = AAB19E8F1386EEBE00C03028 /* libiotaShared.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AAB19E9B1386EEBE00C03028 /* iotaSharedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB19EB51386EEBE00C03028 /* Build configuration list for PBXNativeTarget "iotaSharedTests" */;
+			buildPhases = (
+				AAB19E971386EEBE00C03028 /* Sources */,
+				AAB19E981386EEBE00C03028 /* Frameworks */,
+				AAB19E991386EEBE00C03028 /* Resources */,
+				AAB19E9A1386EEBE00C03028 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAB19EA31386EEBE00C03028 /* PBXTargetDependency */,
+			);
+			name = iotaSharedTests;
+			productName = iotaSharedTests;
+			productReference = AAB19E9C1386EEBE00C03028 /* iotaSharedTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAB19E861386EEBE00C03028 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "MITM AB";
+			};
+			buildConfigurationList = AAB19E891386EEBE00C03028 /* Build configuration list for PBXProject "iotaShared" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAB19E841386EEBE00C03028;
+			productRefGroup = AAB19E901386EEBE00C03028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAB19E8E1386EEBE00C03028 /* iotaShared */,
+				AAB19E9B1386EEBE00C03028 /* iotaSharedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAB19E991386EEBE00C03028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB19EAA1386EEBE00C03028 /* InfoPlist.strings in Resources */,
+				AAB19EAD1386EEBE00C03028 /* iotaSharedTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AAB19E9A1386EEBE00C03028 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAB19E8B1386EEBE00C03028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB19E971386EEBE00C03028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB19EAF1386EEBE00C03028 /* iotaSharedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAB19EA31386EEBE00C03028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAB19E8E1386EEBE00C03028 /* iotaShared */;
+			targetProxy = AAB19EA21386EEBE00C03028 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAB19EA81386EEBE00C03028 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB19EA91386EEBE00C03028 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAB19EB01386EEBE00C03028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAB19EB11386EEBE00C03028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AAB19EB31386EEBE00C03028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/iotaShared.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iotaShared/iotaShared-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAB19EB41386EEBE00C03028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/iotaShared.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iotaShared/iotaShared-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AAB19EB61386EEBE00C03028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iotaSharedTests/iotaSharedTests-Prefix.pch";
+				INFOPLIST_FILE = "iotaSharedTests/iotaSharedTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AAB19EB71386EEBE00C03028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iotaSharedTests/iotaSharedTests-Prefix.pch";
+				INFOPLIST_FILE = "iotaSharedTests/iotaSharedTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAB19E891386EEBE00C03028 /* Build configuration list for PBXProject "iotaShared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB19EB01386EEBE00C03028 /* Debug */,
+				AAB19EB11386EEBE00C03028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB19EB21386EEBE00C03028 /* Build configuration list for PBXNativeTarget "iotaShared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB19EB31386EEBE00C03028 /* Debug */,
+				AAB19EB41386EEBE00C03028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAB19EB51386EEBE00C03028 /* Build configuration list for PBXNativeTarget "iotaSharedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB19EB61386EEBE00C03028 /* Debug */,
+				AAB19EB71386EEBE00C03028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAB19E861386EEBE00C03028 /* Project object */;
+}

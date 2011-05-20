@@ -15,6 +15,8 @@
 		AAB19EAA1386EEBE00C03028 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAB19EA81386EEBE00C03028 /* InfoPlist.strings */; };
 		AAB19EAD1386EEBE00C03028 /* iotaSharedTests.h in Resources */ = {isa = PBXBuildFile; fileRef = AAB19EAC1386EEBE00C03028 /* iotaSharedTests.h */; };
 		AAB19EAF1386EEBE00C03028 /* iotaSharedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB19EAE1386EEBE00C03028 /* iotaSharedTests.m */; };
+		AAB19EC31386EFE600C03028 /* FuncClass.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB19EC11386EFE600C03028 /* FuncClass.h */; };
+		AAB19EC41386EFE600C03028 /* FuncClass.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB19EC21386EFE600C03028 /* FuncClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,15 +32,17 @@
 /* Begin PBXFileReference section */
 		AAB19E8F1386EEBE00C03028 /* libiotaShared.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiotaShared.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB19E921386EEBE00C03028 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AAB19E961386EEBE00C03028 /* iotaShared-Prefix.pch */ = {isa = PBXFileReference; path = "iotaShared-Prefix.pch"; sourceTree = "<group>"; };
+		AAB19E961386EEBE00C03028 /* iotaShared-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iotaShared-Prefix.pch"; sourceTree = "<group>"; };
 		AAB19E9C1386EEBE00C03028 /* iotaSharedTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iotaSharedTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB19E9D1386EEBE00C03028 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AAB19EA01386EEBE00C03028 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AAB19EA71386EEBE00C03028 /* iotaSharedTests-Info.plist */ = {isa = PBXFileReference; path = "iotaSharedTests-Info.plist"; sourceTree = "<group>"; };
+		AAB19EA71386EEBE00C03028 /* iotaSharedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iotaSharedTests-Info.plist"; sourceTree = "<group>"; };
 		AAB19EA91386EEBE00C03028 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AAB19EAB1386EEBE00C03028 /* iotaSharedTests-Prefix.pch */ = {isa = PBXFileReference; path = "iotaSharedTests-Prefix.pch"; sourceTree = "<group>"; };
+		AAB19EAB1386EEBE00C03028 /* iotaSharedTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iotaSharedTests-Prefix.pch"; sourceTree = "<group>"; };
 		AAB19EAC1386EEBE00C03028 /* iotaSharedTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iotaSharedTests.h; sourceTree = "<group>"; };
 		AAB19EAE1386EEBE00C03028 /* iotaSharedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iotaSharedTests.m; sourceTree = "<group>"; };
+		AAB19EC11386EFE600C03028 /* FuncClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuncClass.h; sourceTree = "<group>"; };
+		AAB19EC21386EFE600C03028 /* FuncClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuncClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				AAB19E951386EEBE00C03028 /* Supporting Files */,
+				AAB19EC11386EFE600C03028 /* FuncClass.h */,
+				AAB19EC21386EFE600C03028 /* FuncClass.m */,
 			);
 			path = iotaShared;
 			sourceTree = "<group>";
@@ -136,6 +142,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB19EC31386EFE600C03028 /* FuncClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB19EC41386EFE600C03028 /* FuncClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

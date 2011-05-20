@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+// a comment
 
 @interface FuncClass : NSObject {
     

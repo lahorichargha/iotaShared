@@ -8,7 +8,7 @@
 
 #import "FuncClass.h"
 
-
+// a comment
 @implementation FuncClass
 
 - (int)someNumber {

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA28E2C813870AB10031ED8E /* IMServerDiscovery.h in Headers */ = {isa = PBXBuildFile; fileRef = AA28E2C613870AB10031ED8E /* IMServerDiscovery.h */; };
+		AA28E2C913870AB10031ED8E /* IMServerDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = AA28E2C713870AB10031ED8E /* IMServerDiscovery.m */; };
 		AAB19E931386EEBE00C03028 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB19E921386EEBE00C03028 /* Foundation.framework */; };
 		AAB19E9E1386EEBE00C03028 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB19E9D1386EEBE00C03028 /* UIKit.framework */; };
 		AAB19E9F1386EEBE00C03028 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB19E921386EEBE00C03028 /* Foundation.framework */; };
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA28E2C613870AB10031ED8E /* IMServerDiscovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMServerDiscovery.h; sourceTree = "<group>"; };
+		AA28E2C713870AB10031ED8E /* IMServerDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMServerDiscovery.m; sourceTree = "<group>"; };
 		AAB19E8F1386EEBE00C03028 /* libiotaShared.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiotaShared.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB19E921386EEBE00C03028 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AAB19E961386EEBE00C03028 /* iotaShared-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iotaShared-Prefix.pch"; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				AAB19E951386EEBE00C03028 /* Supporting Files */,
 				AAB19EC11386EFE600C03028 /* FuncClass.h */,
 				AAB19EC21386EFE600C03028 /* FuncClass.m */,
+				AA28E2C613870AB10031ED8E /* IMServerDiscovery.h */,
+				AA28E2C713870AB10031ED8E /* IMServerDiscovery.m */,
 			);
 			path = iotaShared;
 			sourceTree = "<group>";
@@ -143,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB19EC31386EFE600C03028 /* FuncClass.h in Headers */,
+				AA28E2C813870AB10031ED8E /* IMServerDiscovery.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB19EC41386EFE600C03028 /* FuncClass.m in Sources */,
+				AA28E2C913870AB10031ED8E /* IMServerDiscovery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +398,7 @@
 				AAB19EB41386EEBE00C03028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAB19EB51386EEBE00C03028 /* Build configuration list for PBXNativeTarget "iotaSharedTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +407,7 @@
 				AAB19EB71386EEBE00C03028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

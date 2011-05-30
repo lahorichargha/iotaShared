@@ -7,7 +7,11 @@
 		<key>iotaShared.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< HEAD
+			<integer>0</integer>
+=======
 			<integer>1</integer>
+>>>>>>> 885c6c06a522866f06d1e8dcfe7816515a30d09b
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>

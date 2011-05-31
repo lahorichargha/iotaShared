@@ -46,7 +46,7 @@ static char *eDataTypeStr[3] __attribute__ ((unused)) = {"none", "completerecord
 
 // -----------------------------------------------------------
 
-@interface ServerConnect : NSObject {}
+@interface IMServerConnect : NSObject {}
 
 - (BOOL)sendData:(NSData *)data forPatientId:(NSString *)patientId datatype:(enum eDataType)datatype;
 - (NSData *)recvDataForPatient:(NSString *)patientId datatype:(enum eDataType)datatype;

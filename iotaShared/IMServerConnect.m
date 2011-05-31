@@ -39,7 +39,7 @@
 
 
 
-#import "ServerConnect.h"
+#import "IMServerConnect.h"
 #import <sys/socket.h>
 #import <netinet/in.h>
 #import <arpa/inet.h>
@@ -50,7 +50,7 @@
 #pragma mark Local declarations
 // -----------------------------------------------------------
 
-@interface ServerConnect ()
+@interface IMServerConnect ()
 @end
 
 // -----------------------------------------------------------
@@ -58,7 +58,7 @@
 #pragma mark Lifecycle
 // -----------------------------------------------------------
 
-@implementation ServerConnect
+@implementation IMServerConnect
 
 
 - (id)init {

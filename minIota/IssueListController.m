@@ -170,6 +170,7 @@
     //    versionLabel.text = kVersion;
     [self.navigationController.view addSubview:versionLabel];
     
+    [self performSelector:@selector(_refreshPatient:) withObject:nil afterDelay:0.5];
     
 #ifndef SYSteam
     UITabBarItem *tbiCross = [[self.tabBarController.tabBar items] objectAtIndex:2];
@@ -194,7 +195,6 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    [self performSelector:@selector(_refreshPatient:) withObject:nil afterDelay:0.5];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {

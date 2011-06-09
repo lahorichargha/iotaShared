@@ -30,7 +30,6 @@
 		AA2FF433138286C500C3ABA4 /* IDRValue.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2FF42D138286C500C3ABA4 /* IDRValue.m */; };
 		AA2FF434138286C500C3ABA4 /* IDRWorksheet.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2FF42F138286C500C3ABA4 /* IDRWorksheet.m */; };
 		AA2FF437138286F500C3ABA4 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2FF436138286F500C3ABA4 /* Patient.m */; };
-		AA2FF43B1382872800C3ABA4 /* NSString+iotaAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2FF43A1382872800C3ABA4 /* NSString+iotaAdditions.m */; };
 		AA2FF43F1382877A00C3ABA4 /* Funcs.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2FF43E1382877A00C3ABA4 /* Funcs.m */; };
 		AA2FF443138287BF00C3ABA4 /* IDRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2FF442138287BF00C3ABA4 /* IDRItem.m */; };
 		AA2FF446138287E800C3ABA4 /* XML2IDR.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2FF445138287E800C3ABA4 /* XML2IDR.m */; };
@@ -131,8 +130,6 @@
 		AA2FF435138286F500C3ABA4 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Patient.h; path = minIota/Patient.h; sourceTree = SOURCE_ROOT; };
 		AA2FF436138286F500C3ABA4 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Patient.m; path = minIota/Patient.m; sourceTree = SOURCE_ROOT; };
 		AA2FF4381382872800C3ABA4 /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
-		AA2FF4391382872800C3ABA4 /* NSString+iotaAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+iotaAdditions.h"; sourceTree = "<group>"; };
-		AA2FF43A1382872800C3ABA4 /* NSString+iotaAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+iotaAdditions.m"; sourceTree = "<group>"; };
 		AA2FF43C1382875000C3ABA4 /* IDRAttribs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDRAttribs.h; path = ../minIota/minIota/IDRAttribs.h; sourceTree = "<group>"; };
 		AA2FF43D1382877A00C3ABA4 /* Funcs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Funcs.h; sourceTree = "<group>"; };
 		AA2FF43E1382877A00C3ABA4 /* Funcs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Funcs.m; sourceTree = "<group>"; };
@@ -287,8 +284,6 @@
 				AA2FF43D1382877A00C3ABA4 /* Funcs.h */,
 				AA2FF43E1382877A00C3ABA4 /* Funcs.m */,
 				AA2FF4381382872800C3ABA4 /* Notifications.h */,
-				AA2FF4391382872800C3ABA4 /* NSString+iotaAdditions.h */,
-				AA2FF43A1382872800C3ABA4 /* NSString+iotaAdditions.m */,
 				AA2FF4871382C58900C3ABA4 /* DetailViewController.h */,
 				AA2FF4881382C58A00C3ABA4 /* DetailViewController.m */,
 				AA228AD01378669600F65E6E /* Context and Patient */,
@@ -579,7 +574,6 @@
 				AA2FF433138286C500C3ABA4 /* IDRValue.m in Sources */,
 				AA2FF434138286C500C3ABA4 /* IDRWorksheet.m in Sources */,
 				AA2FF437138286F500C3ABA4 /* Patient.m in Sources */,
-				AA2FF43B1382872800C3ABA4 /* NSString+iotaAdditions.m in Sources */,
 				AA2FF43F1382877A00C3ABA4 /* Funcs.m in Sources */,
 				AA2FF443138287BF00C3ABA4 /* IDRItem.m in Sources */,
 				AA2FF446138287E800C3ABA4 /* XML2IDR.m in Sources */,

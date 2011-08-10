@@ -241,6 +241,7 @@
 		AAB19E861386EEBE00C03028 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "MITM AB";
 			};
 			buildConfigurationList = AAB19E891386EEBE00C03028 /* Build configuration list for PBXProject "iotaShared" */;

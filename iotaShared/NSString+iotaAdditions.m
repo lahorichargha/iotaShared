@@ -78,6 +78,10 @@
 	return ([[self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] length] > 0);
 }
 
+- (BOOL)iotaIsEmpty {
+    return ![self iotaIsNonEmpty];
+}
+
 - (BOOL)iotaIsYes {
 	return ([self caseInsensitiveCompare:@"yes"] == NSOrderedSame);
 }

@@ -29,6 +29,10 @@
 		AAB19EAA1386EEBE00C03028 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAB19EA81386EEBE00C03028 /* InfoPlist.strings */; };
 		AAB19EAD1386EEBE00C03028 /* iotaSharedTests.h in Resources */ = {isa = PBXBuildFile; fileRef = AAB19EAC1386EEBE00C03028 /* iotaSharedTests.h */; };
 		AAB19EAF1386EEBE00C03028 /* iotaSharedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB19EAE1386EEBE00C03028 /* iotaSharedTests.m */; };
+		CEC76060142D0943002D942F /* NSArray+PacketSend.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC7605E142D0943002D942F /* NSArray+PacketSend.h */; };
+		CEC76061142D0943002D942F /* NSArray+PacketSend.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC7605F142D0943002D942F /* NSArray+PacketSend.m */; };
+		CEC76064142D0963002D942F /* NSData+PacketSplit.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC76062142D0963002D942F /* NSData+PacketSplit.h */; };
+		CEC76065142D0963002D942F /* NSData+PacketSplit.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC76063142D0963002D942F /* NSData+PacketSplit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,10 @@
 		AAB19EAB1386EEBE00C03028 /* iotaSharedTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iotaSharedTests-Prefix.pch"; sourceTree = "<group>"; };
 		AAB19EAC1386EEBE00C03028 /* iotaSharedTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iotaSharedTests.h; sourceTree = "<group>"; };
 		AAB19EAE1386EEBE00C03028 /* iotaSharedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iotaSharedTests.m; sourceTree = "<group>"; };
+		CEC7605E142D0943002D942F /* NSArray+PacketSend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PacketSend.h"; sourceTree = "<group>"; };
+		CEC7605F142D0943002D942F /* NSArray+PacketSend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PacketSend.m"; sourceTree = "<group>"; };
+		CEC76062142D0963002D942F /* NSData+PacketSplit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+PacketSplit.h"; sourceTree = "<group>"; };
+		CEC76063142D0963002D942F /* NSData+PacketSplit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+PacketSplit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +155,10 @@
 				AA28E2C713870AB10031ED8E /* IMServerDiscovery.m */,
 				AA4E74E5139504380091C928 /* IMServerConnect.h */,
 				AA4E74E6139504380091C928 /* IMServerConnect.m */,
+				CEC7605E142D0943002D942F /* NSArray+PacketSend.h */,
+				CEC7605F142D0943002D942F /* NSArray+PacketSend.m */,
+				CEC76062142D0963002D942F /* NSData+PacketSplit.h */,
+				CEC76063142D0963002D942F /* NSData+PacketSplit.m */,
 			);
 			path = iotaShared;
 			sourceTree = "<group>";
@@ -193,6 +205,8 @@
 				AA2C159413984700008C7788 /* IotaDOMElement.h in Headers */,
 				AA2C159613984700008C7788 /* IotaDOMNode.h in Headers */,
 				AA2C159813984700008C7788 /* Xml2IotaDom.h in Headers */,
+				CEC76060142D0943002D942F /* NSArray+PacketSend.h in Headers */,
+				CEC76064142D0963002D942F /* NSData+PacketSplit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +316,8 @@
 				AA2C159513984700008C7788 /* IotaDOMElement.m in Sources */,
 				AA2C159713984700008C7788 /* IotaDOMNode.m in Sources */,
 				AA2C159913984700008C7788 /* Xml2IotaDom.m in Sources */,
+				CEC76061142D0943002D942F /* NSArray+PacketSend.m in Sources */,
+				CEC76065142D0963002D942F /* NSData+PacketSplit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -78,9 +78,10 @@
 	return ([[self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] length] > 0);
 }
 
-- (BOOL)iotaIsEmpty {
-    return ![self iotaIsNonEmpty];
-}
+// sadly, you can't define an iotaIsEmpty method and expect it to work right if self is nil
+//- (BOOL)iotaIsEmpty {
+//    return ![self iotaIsNonEmpty];
+//}
 
 - (BOOL)iotaIsYes {
 	return ([self caseInsensitiveCompare:@"yes"] == NSOrderedSame);

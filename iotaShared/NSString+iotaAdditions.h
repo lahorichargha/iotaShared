@@ -39,7 +39,7 @@
 - (NSString *)iotaNormalize;
 - (NSString *)trim;
 - (BOOL)iotaIsNonEmpty;
-- (BOOL)iotaIsEmpty;
+//- (BOOL)iotaIsEmpty;
 + (NSString *)spacesOfLength:(unsigned int)aLength;
 - (BOOL)iotaIsYes;
 - (NSString *)setterName;

@@ -126,7 +126,7 @@
 // -----------------------------------------------------------
 
 - (void)parse {
-    IotaDOMElement *document = [[IotaDOMElement alloc] init];
+    IotaDOMElement *document = [[[IotaDOMElement alloc] init] autorelease];
     document.tagName = @"root";
     [self pushElement:document];
     [self.parser parse];
@@ -140,7 +140,7 @@
 - (void)addContentTo:(IotaDOMElement *)element {
     if ([self.charBuffer length] > 0) {
         IotaDOMContent *domContent = [[IotaDOMContent alloc] init];
-        domContent.content = [self.charBuffer copy];
+        domContent.content = [[self.charBuffer copy] autorelease];
         [self.charBuffer setString:@""];
         [element.children addObject:domContent];
         [domContent release];
